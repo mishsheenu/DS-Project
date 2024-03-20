@@ -1,4 +1,4 @@
-# Machine-learning
+# Credit Card Fraud Detection project
 Introduction:
 
 The Credit Card Fraud Detection project focuses on enhancing financial security through advanced machine learning and data analysis techniques.
