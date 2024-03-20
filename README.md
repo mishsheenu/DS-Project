@@ -1,5 +1,6 @@
 # Credit Card Fraud Detection project
-Introduction:
+
+# Introduction:
 
 The Credit Card Fraud Detection project focuses on enhancing financial security through advanced machine learning and data analysis techniques.
 
@@ -13,7 +14,7 @@ The exploration of machine learning algorithms, including logistic regression, d
 
 Ultimately, the project aims to provide a robust, efficient, and adaptive solution to safeguard financial transactions from the evolving landscape of fraudulent activities.
 
-Project Objectives
+# Project Objectives
 
 In this project, the goal is to leverage machine learning models to predict fraudulent credit card transactions. The process typically involves preprocessing and exploring the dataset, which may include features such as transaction amount, location, time, and previous transaction history.
 
@@ -23,7 +24,7 @@ The models are trained on a labeled dataset where instances of fraudulent and no
 
 The final model aims to accurately identify and prevent fraudulent credit card transactions by learning patterns from historical data.
 
-Project Understanding
+# Project Understanding
 
 Suppose you get a call from your bank, and the customer care executive informs you that your card is about to expire in a week. Immediately, you check your card details and realise that it will expire in the next eight days. Now, to renew your membership, the executive asks you to verify a few details such as your credit card number, the expiry date and the CVV number. Will you share these details with the executive?
 
@@ -35,14 +36,14 @@ So far, you have learnt about the different types of machine learning models. No
 
 By the end of this module, you will learn how you can build a machine learning model that is capable of detecting fraudulent transactions. You will also learn how to handle class imbalances present in any data set, along with model selection and
 
-Problem Statement:
+# Problem Statement:
 
 The problem statement chosen for this project is to predict fraudulent credit card transactions with the help of machine learning models.
 
 In this project, you will analyse customer-level data which has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group.
 The dataset is taken from the Kaggle website (https://www.kaggle.com/mlg-ulb/creditcardfraud) and it has a total of 2,84,807 transactions, out of which 492 are fraudulent. Since the dataset is highly imbalanced, so it needs to be handled before model building.
 
-Business Problem Overview:
+# Business Problem Overview:
 
 For many banks, retaining high profitable customers is the number one business goal. Banking fraud, however, poses a significant threat to this goal for different banks. In terms of substantial financial losses, trust and credibility, this is a concerning issue to both banks and customers alike.
 
@@ -50,11 +51,11 @@ It has been estimated by Nilson report(https://nilsonreport.com/upload/content_p
 
 In the banking industry, credit card fraud detection using machine learning is not just a trend but a necessity for them to put proactive monitoring and fraud prevention mechanisms in place. Machine learning is helping these institutions to reduce time-consuming manual reviews, costly chargebacks and fees, and denials of legitimate transactions.
 
-Data Dictionary:
+# Data Dictionary:
 
 The data set includes credit card transactions made by European cardholders over a period of two days in September 2013. Out of a total of 2,84,807 transactions, 492 were fraudulent. This data set is highly unbalanced, with the positive class (frauds) accounting for 0.172% of the total transactions. The data set has also been modified with Principal Component Analysis (PCA) to maintain confidentiality. Apart from ‘time’ and ‘amount’, all the other features (V1, V2, V3, up to V28) are the principal components obtained using PCA. The feature 'time' contains the seconds elapsed between the first transaction in the data set and the subsequent transactions. The feature 'amount' is the transaction amount. The feature 'class' represents class labelling, and it takes the value 1 in cases of fraud and 0 in others.
 
-Project Pipeline:
+# Project Pipeline:
 The project pipeline can be briefly summarized in the following four steps:
 
 • Data Understanding: Here, you need to load the data and understand the features present in it. This would help you choose the features that you will need for your final model.
