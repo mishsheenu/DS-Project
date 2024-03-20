@@ -9,7 +9,7 @@ Leveraging machine learning, specifically supervised learning and anomaly detect
 
 Key components involve data preprocessing, feature engineering, model selection, and evaluation metrics.
 
-The exploration of machine learning algorithms, including logistic regression, decision trees, random forests, and support vector machines, aims to identify the most effective approach for fraud detection.
+The exploration of machine learning algorithms, including logistic regression, decision trees, XGBoost , and HistGradientBoostingClassifier, aims to identify the most effective approach for fraud detection.
 
 Ultimately, the project aims to provide a robust, efficient, and adaptive solution to safeguard financial transactions from the evolving landscape of fraudulent activities.
 
